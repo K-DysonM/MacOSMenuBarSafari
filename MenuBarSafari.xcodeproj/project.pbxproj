@@ -11,6 +11,8 @@
 		B2A96A6B27D18C99007397B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A96A6A27D18C99007397B9 /* ContentView.swift */; };
 		B2A96A6D27D18C9B007397B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A96A6C27D18C9B007397B9 /* Assets.xcassets */; };
 		B2A96A7027D18C9B007397B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A96A6F27D18C9B007397B9 /* Preview Assets.xcassets */; };
+		B2A96A7827D18F8D007397B9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A96A7727D18F8D007397B9 /* WebView.swift */; };
+		B2A96A7A27D198EC007397B9 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A96A7927D198EC007397B9 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		B2A96A6C27D18C9B007397B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2A96A6F27D18C9B007397B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2A96A7127D18C9B007397B9 /* MenuBarSafari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuBarSafari.entitlements; sourceTree = "<group>"; };
+		B2A96A7727D18F8D007397B9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		B2A96A7927D198EC007397B9 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				B2A96A6C27D18C9B007397B9 /* Assets.xcassets */,
 				B2A96A7127D18C9B007397B9 /* MenuBarSafari.entitlements */,
 				B2A96A6E27D18C9B007397B9 /* Preview Content */,
+				B2A96A7727D18F8D007397B9 /* WebView.swift */,
+				B2A96A7927D198EC007397B9 /* SearchView.swift */,
 			);
 			path = MenuBarSafari;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A96A7A27D198EC007397B9 /* SearchView.swift in Sources */,
+				B2A96A7827D18F8D007397B9 /* WebView.swift in Sources */,
 				B2A96A6B27D18C99007397B9 /* ContentView.swift in Sources */,
 				B2A96A6927D18C99007397B9 /* MenuBarSafariApp.swift in Sources */,
 			);
